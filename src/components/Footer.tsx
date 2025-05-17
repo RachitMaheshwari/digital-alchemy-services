@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <h3 className="font-bold text-lg mb-4">TechPro</h3>
+            <h3 className="font-bold text-lg mb-4">OmTech</h3>
             <p className="text-gray-600 mb-4">
               Professional tech services for businesses and startups.
             </p>
@@ -55,17 +55,18 @@ const Footer = () => {
           <div>
             <h3 className="font-bold text-lg mb-4">Contact</h3>
             <ul className="space-y-2">
-              <li className="text-gray-600">123 Tech Street</li>
-              <li className="text-gray-600">Bangalore, India</li>
-              <li className="text-gray-600">contact@techpro.dev</li>
-              <li className="text-gray-600">+91 (123) 456-7890</li>
+              <li className="text-gray-600">Building No. 1, Chiranjivpur</li>
+              <li className="text-gray-600">Vikasnagar, Dehradun (UK)</li>
+              <li className="text-gray-600">Pin Code. 248198, India</li>
+              <li className="text-gray-600">rachitmaheshwari829@gmail.com</li>
+              <li className="text-gray-600">+91 8630142314</li>
             </ul>
           </div>
         </div>
         
         <div className="border-t border-gray-200 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-600 text-sm">
-            © {currentYear} TechPro. All rights reserved.
+            © {currentYear} OmTech. All rights reserved.
           </p>
           <p className="text-gray-600 text-sm mt-4 md:mt-0 flex items-center">
             Made with <Heart size={14} className="mx-1 text-red-500" /> in India

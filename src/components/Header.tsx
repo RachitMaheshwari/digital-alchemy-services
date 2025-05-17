@@ -32,7 +32,7 @@ const Header = ({ isScrolled }: HeaderProps) => {
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <div className="flex items-center">
           <span className="text-2xl font-bold bg-gradient-to-r from-techpro-blue to-techpro-purple bg-clip-text text-transparent">
-            TechPro
+            OmTech
           </span>
         </div>
         

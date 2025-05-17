@@ -51,7 +51,7 @@ const ContactForm = () => {
             name="name"
             value={formData.name}
             onChange={handleChange}
-            placeholder="John Doe"
+            placeholder="Enter Your Name"
             required
             className="border-gray-300 focus:border-techpro-purple focus:ring-techpro-purple"
           />
@@ -64,7 +64,7 @@ const ContactForm = () => {
             type="email"
             value={formData.email}
             onChange={handleChange}
-            placeholder="john@example.com"
+            placeholder="Enter Your Mail Id"
             required
             className="border-gray-300 focus:border-techpro-purple focus:ring-techpro-purple"
           />
@@ -79,7 +79,7 @@ const ContactForm = () => {
             name="phone"
             value={formData.phone}
             onChange={handleChange}
-            placeholder="+91 98765 43210"
+            placeholder="Enter Your Contact Number"
             className="border-gray-300 focus:border-techpro-purple focus:ring-techpro-purple"
           />
         </div>

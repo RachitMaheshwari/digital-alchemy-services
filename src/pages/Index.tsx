@@ -278,7 +278,7 @@ const Index = () => {
             </div>
 
             <TabsContent value="web" className="animate-fade-in">
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                 <ServiceCard
                   icon={<Globe size={24} />}
                   title="Static Website"
@@ -314,11 +314,23 @@ const Index = () => {
                     "Secure Checkout Process",
                   ]}
                 />
+ <ServiceCard
+                  icon={<Globe size={24} />}
+                  title="E-commerce Website"
+                  description="Full-featured online stores with payment systems"
+                  items={[
+                    "Product Catalog Management",
+                    "Payment Gateway Integration",
+                    "Inventory Management",
+                    "Secure Checkout Process",
+                  ]}
+                />
+                
               </div>
             </TabsContent>
 
             <TabsContent value="mobile" className="animate-fade-in">
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                 <ServiceCard
                   icon={<Smartphone size={24} />}
                   title="Android Apps"
@@ -354,11 +366,23 @@ const Index = () => {
                     "Cost-Effective Development",
                   ]}
                 />
+                <ServiceCard
+                  icon={<Smartphone size={24} />}
+                  title="Hybrid Apps"
+                  description="Cross-platform apps with Flutter/React Native"
+                  items={[
+                    "Single Codebase for All Platforms",
+                    "Native-Like Performance",
+                    "Customizable UI Components",
+                    "Cost-Effective Development",
+                  ]}
+                />
+
               </div>
             </TabsContent>
 
             <TabsContent value="software" className="animate-fade-in">
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
                 <ServiceCard
                   icon={<Cpu size={24} />}
                   title="Desktop Applications"
@@ -394,11 +418,24 @@ const Index = () => {
                     "Reporting & Analytics",
                   ]}
                 />
+
+                <ServiceCard
+                  icon={<Cpu size={24} />}
+                  title="Custom ERP/CRM"
+                  description="Enterprise solutions for business management"
+                  items={[
+                    "Custom Workflow Automation",
+                    "Data Integration & Migration",
+                    "Role-Based Access Control",
+                    "Reporting & Analytics",
+                  ]}
+                />
+
               </div>
             </TabsContent>
 
             <TabsContent value="dev" className="animate-fade-in">
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
                 <ServiceCard
                   icon={<Code size={24} />}
                   title="Frontend Development"
@@ -434,11 +471,23 @@ const Index = () => {
                     "Deployment & Maintenance",
                   ]}
                 />
+                <ServiceCard
+                  icon={<Code size={24} />}
+                  title="Full-Stack Development"
+                  description="End-to-end application development"
+                  items={[
+                    "Seamless Frontend-Backend Integration",
+                    "Comprehensive Technical Architecture",
+                    "Scalable Application Design",
+                    "Deployment & Maintenance",
+                  ]}
+                />
+
               </div>
             </TabsContent>
 
             <TabsContent value="devops" className="animate-fade-in">
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
                 <ServiceCard
                   icon={<Server size={24} />}
                   title="Server Setup"
@@ -474,11 +523,25 @@ const Index = () => {
                     "Cost Optimization",
                   ]}
                 />
+                <ServiceCard
+                  icon={<Server size={24} />}
+                  title="Cloud Infrastructure"
+                  description="AWS/Azure/GCP solutions"
+                  items={[
+                    "Cloud Architecture Design",
+                    "Infrastructure as Code",
+                    "Container Orchestration",
+                    "Cost Optimization",
+                  ]}
+                />
               </div>
+
+
+              
             </TabsContent>
 
             <TabsContent value="testing" className="animate-fade-in">
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
                 <ServiceCard
                   icon={<TestTube size={24} />}
                   title="Manual Testing"
@@ -514,6 +577,19 @@ const Index = () => {
                     "Performance Optimization",
                   ]}
                 />
+
+                <ServiceCard
+                  icon={<TestTube size={24} />}
+                  title="Performance Testing"
+                  description="Ensure your application can scale"
+                  items={[
+                    "Load Testing",
+                    "Stress Testing",
+                    "Scalability Assessment",
+                    "Performance Optimization",
+                  ]}
+                />
+
               </div>
             </TabsContent>
           </Tabs>

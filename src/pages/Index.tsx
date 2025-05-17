@@ -314,7 +314,7 @@ const Index = () => {
                     "Secure Checkout Process",
                   ]}
                 />
- <ServiceCard
+                <ServiceCard
                   icon={<Globe size={24} />}
                   title="E-commerce Website"
                   description="Full-featured online stores with payment systems"
@@ -325,7 +325,6 @@ const Index = () => {
                     "Secure Checkout Process",
                   ]}
                 />
-                
               </div>
             </TabsContent>
 
@@ -377,7 +376,6 @@ const Index = () => {
                     "Cost-Effective Development",
                   ]}
                 />
-
               </div>
             </TabsContent>
 
@@ -430,7 +428,6 @@ const Index = () => {
                     "Reporting & Analytics",
                   ]}
                 />
-
               </div>
             </TabsContent>
 
@@ -482,7 +479,6 @@ const Index = () => {
                     "Deployment & Maintenance",
                   ]}
                 />
-
               </div>
             </TabsContent>
 
@@ -535,9 +531,6 @@ const Index = () => {
                   ]}
                 />
               </div>
-
-
-              
             </TabsContent>
 
             <TabsContent value="testing" className="animate-fade-in">
@@ -589,7 +582,6 @@ const Index = () => {
                     "Performance Optimization",
                   ]}
                 />
-
               </div>
             </TabsContent>
           </Tabs>
@@ -830,7 +822,7 @@ const Index = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <Testimonial
-              quote="TechPro delivered our e-commerce platform ahead of schedule. The attention to detail and quality of work was outstanding."
+              quote="OmTech delivered our e-commerce platform ahead of schedule. The attention to detail and quality of work was outstanding."
               author="Sarah Johnson"
               role="CEO, Fashion Boutique"
               avatar="https://randomuser.me/api/portraits/women/62.jpg"
@@ -844,7 +836,7 @@ const Index = () => {
               rating={5}
             />
             <Testimonial
-              quote="Professional, responsive and incredibly skilled. We've worked with TechPro on multiple projects and they never disappoint."
+              quote="Professional, responsive and incredibly skilled. We've worked with OmTech on multiple projects and they never disappoint."
               author="Amanda Rodriguez"
               role="Product Manager, SaaS Company"
               avatar="https://randomuser.me/api/portraits/women/45.jpg"

@@ -10,21 +10,10 @@ interface CountUpProps {
 
 const CountUp = ({ end, start = 0, duration = 2, decimals = 0 }: CountUpProps) => {
   const [count, setCount] = useState(start);
-  const countRef = useRef(start);
+  const elementRef = useRef<HTMLSpanElement | null>(null);
   const multiplier = 1 * 10 ** decimals;
   
   useEffect(() => {
-    const inViewport = () => {
-      if (!countRef.current) return false;
-      const rect = countRef.current.getBoundingClientRect();
-      return (
-        rect.top >= 0 &&
-        rect.left >= 0 &&
-        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
-        rect.right <= (window.innerWidth || document.documentElement.clientWidth)
-      );
-    };
-    
     let startTime: number | null = null;
     let animationFrame: number;
     
@@ -47,8 +36,8 @@ const CountUp = ({ end, start = 0, duration = 2, decimals = 0 }: CountUpProps) =
       }
     });
     
-    if (countRef.current) {
-      observer.observe(countRef.current);
+    if (elementRef.current) {
+      observer.observe(elementRef.current);
     }
     
     return () => {
@@ -58,7 +47,7 @@ const CountUp = ({ end, start = 0, duration = 2, decimals = 0 }: CountUpProps) =
   }, [end, start, duration]);
   
   return (
-    <span ref={countRef as React.RefObject<HTMLSpanElement>}>
+    <span ref={elementRef}>
       {count.toLocaleString()}
     </span>
   );

@@ -149,7 +149,7 @@ const Index = () => {
                     </div>
                   </div>
                   <span className="text-sm text-gray-600">
-                    <span className="font-medium">50+</span> clients trust us
+                    <span className="font-medium">30+</span> clients trust us
                   </span>
                 </div>
               </div>
@@ -191,17 +191,17 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             <StatCard
-              value={200}
+              value={35}
               label="Projects Completed"
               icon={<CheckCircle className="text-green-500" />}
             />
             <StatCard
-              value={50}
+              value={15}
               label="Expert Developers"
               icon={<Users className="text-blue-500" />}
             />
             <StatCard
-              value={5}
+              value={2}
               suffix="+"
               label="Years Experience"
               icon={<Calendar className="text-amber-500" />}
@@ -306,7 +306,7 @@ const Index = () => {
                 <ServiceCard
                   icon={<Globe size={24} />}
                   title="E-commerce Website"
-                  description="Full-featured online stores with payment systems"
+                  description="Full-featured online stores with payment integration"
                   items={[
                     "Product Catalog Management",
                     "Payment Gateway Integration",
@@ -316,13 +316,13 @@ const Index = () => {
                 />
                 <ServiceCard
                   icon={<Globe size={24} />}
-                  title="E-commerce Website"
-                  description="Full-featured online stores with payment systems"
+                  title="Custom Web Applications"
+                  description="Tailored web applications for complex business needs"
                   items={[
-                    "Product Catalog Management",
-                    "Payment Gateway Integration",
-                    "Inventory Management",
-                    "Secure Checkout Process",
+                    "User Authentication & Roles",
+                    "Advanced Dashboard Features",
+                    "API Integration",
+                    "Custom Business Logic",
                   ]}
                 />
               </div>
@@ -367,13 +367,13 @@ const Index = () => {
                 />
                 <ServiceCard
                   icon={<Smartphone size={24} />}
-                  title="Hybrid Apps"
-                  description="Cross-platform apps with Flutter/React Native"
+                  title="App Maintenance & Updates"
+                  description="Keep your apps up-to-date and running smoothly"
                   items={[
-                    "Single Codebase for All Platforms",
-                    "Native-Like Performance",
-                    "Customizable UI Components",
-                    "Cost-Effective Development",
+                    "Regular Bug Fixes & Improvements",
+                    "Security & OS Updates",
+                    "Feature Enhancements",
+                    "Performance Monitoring",
                   ]}
                 />
               </div>
@@ -419,13 +419,13 @@ const Index = () => {
 
                 <ServiceCard
                   icon={<Cpu size={24} />}
-                  title="Custom ERP/CRM"
-                  description="Enterprise solutions for business management"
+                  title="Enterprise Software Solutions"
+                  description="Robust software systems for large-scale operations"
                   items={[
-                    "Custom Workflow Automation",
-                    "Data Integration & Migration",
-                    "Role-Based Access Control",
-                    "Reporting & Analytics",
+                    "End-to-End Business Integration",
+                    "Cloud or On-Premise Deployment",
+                    "Compliance & Security Features",
+                    "Custom Module Development",
                   ]}
                 />
               </div>
@@ -470,13 +470,13 @@ const Index = () => {
                 />
                 <ServiceCard
                   icon={<Code size={24} />}
-                  title="Full-Stack Development"
-                  description="End-to-end application development"
+                  title="Database Setup"
+                  description="Efficient and secure database configurations"
                   items={[
-                    "Seamless Frontend-Backend Integration",
-                    "Comprehensive Technical Architecture",
-                    "Scalable Application Design",
-                    "Deployment & Maintenance",
+                    "Relational & NoSQL Setup",
+                    "Data Modeling & Indexing",
+                    "Backup & Restore Strategies",
+                    "Access Control & Security",
                   ]}
                 />
               </div>
@@ -521,13 +521,13 @@ const Index = () => {
                 />
                 <ServiceCard
                   icon={<Server size={24} />}
-                  title="Cloud Infrastructure"
-                  description="AWS/Azure/GCP solutions"
+                  title="Domain & SSL Setup"
+                  description="Secure domain and SSL certificate configuration"
                   items={[
-                    "Cloud Architecture Design",
-                    "Infrastructure as Code",
-                    "Container Orchestration",
-                    "Cost Optimization",
+                    "Domain Registration & DNS Setup",
+                    "SSL Certificate Installation",
+                    "HTTPS Redirection",
+                    "Ongoing Certificate Renewal",
                   ]}
                 />
               </div>
@@ -573,13 +573,13 @@ const Index = () => {
 
                 <ServiceCard
                   icon={<TestTube size={24} />}
-                  title="Performance Testing"
-                  description="Ensure your application can scale"
+                  title="Security Testing"
+                  description="Protect your application from vulnerabilities"
                   items={[
-                    "Load Testing",
-                    "Stress Testing",
-                    "Scalability Assessment",
-                    "Performance Optimization",
+                    "Vulnerability Assessment",
+                    "Penetration Testing",
+                    "Security Audits",
+                    "OWASP Compliance Checks",
                   ]}
                 />
               </div>
@@ -1180,21 +1180,23 @@ const Index = () => {
               Let's turn your ideas into reality. Get in touch for a free
               consultation and quote.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button
-                size="lg"
-                className="bg-white text-techpro-purple hover:bg-white/90"
-              >
-                Get Started
-              </Button>
-              <Button
-                size="lg"
-                variant="outline"
-                className="border-white text-white hover:bg-white/10"
-              >
-                Learn More
-              </Button>
-            </div>
+           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+  <Button
+    size="lg"
+    variant="outline"
+    className="bg-white border border-white text-techpro-purple hover:bg-white/90 focus-visible:ring-2 focus-visible:ring-techpro-purple transition duration-200"
+  >
+    Get Started
+  </Button>
+  <Button
+    size="lg"
+    variant="outline"
+    className="border border-white text-techpro-purple hover:bg-white/10 focus-visible:ring-2 focus-visible:ring-techpro-purple transition duration-200"
+  >
+    Learn More
+  </Button>
+</div>
+
           </div>
         </div>
       </section>

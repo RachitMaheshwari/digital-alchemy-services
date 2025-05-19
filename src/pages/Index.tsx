@@ -122,12 +122,15 @@ const Index = () => {
                   businesses of all sizes.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 pt-4 animate-slide-up">
-                  <Button
-                    size="lg"
-                    className="bg-gradient-to-r from-techpro-blue to-techpro-purple hover:from-techpro-blue/90 hover:to-techpro-purple/90 text-white shadow-lg shadow-techpro-purple/30 transition-all duration-300 hover:shadow-xl"
-                  >
-                    Start Your Project
-                  </Button>
+                  <a
+                    href="#contact">
+                    <Button
+                      size="lg"
+                      className="bg-gradient-to-r from-techpro-blue to-techpro-purple hover:from-techpro-blue/90 hover:to-techpro-purple/90 text-white shadow-lg shadow-techpro-purple/30 transition-all duration-300 hover:shadow-xl"
+                    >
+                      Start Your Project
+                    </Button>
+                  </a>
                   <Button
                     size="lg"
                     variant="outline"
@@ -1180,22 +1183,25 @@ const Index = () => {
               Let's turn your ideas into reality. Get in touch for a free
               consultation and quote.
             </p>
-           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-  <Button
-    size="lg"
-    variant="outline"
-    className="bg-white border border-white text-techpro-purple hover:bg-white/90 focus-visible:ring-2 focus-visible:ring-techpro-purple transition duration-200"
-  >
-    Get Started
-  </Button>
-  <Button
-    size="lg"
-    variant="outline"
-    className="border border-white text-techpro-purple hover:bg-white/10 focus-visible:ring-2 focus-visible:ring-techpro-purple transition duration-200"
-  >
-    Learn More
-  </Button>
-</div>
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+              <a
+                href="#contact">
+                <Button
+                  size="lg"
+                  variant="outline"
+                  className="bg-white border border-white text-techpro-purple hover:bg-white/90 focus-visible:ring-2 focus-visible:ring-techpro-purple transition duration-200"
+                >
+                  Get Started
+                </Button>
+              </a>
+              <Button
+                size="lg"
+                variant="outline"
+                className="border border-white text-techpro-purple hover:bg-white/10 focus-visible:ring-2 focus-visible:ring-techpro-purple transition duration-200"
+              >
+                Learn More
+              </Button>
+            </div>
 
           </div>
         </div>
@@ -1269,20 +1275,24 @@ const Index = () => {
                   Call: +91 8630142314
                 </Button>
                 <Button
+                  asChild
                   variant="outline"
                   className="border-techpro-blue text-techpro-blue hover:bg-techpro-blue/10 group"
                 >
-                  <svg
-                    className="h-5 w-5 mr-2 transition-transform duration-300 group-hover:translate-y-[-2px]"
-                    fill="currentColor"
-                    viewBox="0 0 20 20"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
-                    <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
-                  </svg>
-                  Email: rachitmaheshwari829@gmail.com
+                  <a href="mailto:rachitmaheshwari829@gmail.com">
+                    <svg
+                      className="h-5 w-5 mr-2 transition-transform duration-300 group-hover:translate-y-[-2px]"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
+                      <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
+                    </svg>
+                    Email: <span className="text-purple-600">rachitmaheshwari829@gmail.com</span>
+                  </a>
                 </Button>
+
               </div>
             </div>
             <div className="bg-white rounded-xl shadow-xl border border-gray-200 overflow-hidden">

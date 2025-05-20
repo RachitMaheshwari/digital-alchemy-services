@@ -66,7 +66,7 @@ const Index = () => {
     // Show welcome toast
     setTimeout(() => {
       toast({
-        title: "Welcome to OmTech",
+        title: "Welcome to RM",
         description: "Explore our premium tech services and solutions",
       });
     }, 1500);
@@ -825,7 +825,7 @@ const Index = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <Testimonial
-              quote="OmTech delivered our e-commerce platform ahead of schedule. The attention to detail and quality of work was outstanding."
+              quote="RM delivered our e-commerce platform ahead of schedule. The attention to detail and quality of work was outstanding."
               author="Sarah Johnson"
               role="CEO, Fashion Boutique"
               avatar="https://randomuser.me/api/portraits/women/62.jpg"
@@ -839,7 +839,7 @@ const Index = () => {
               rating={5}
             />
             <Testimonial
-              quote="Professional, responsive and incredibly skilled. We've worked with OmTech on multiple projects and they never disappoint."
+              quote="Professional, responsive and incredibly skilled. We've worked with RM on multiple projects and they never disappoint."
               author="Amanda Rodriguez"
               role="Product Manager, SaaS Company"
               avatar="https://randomuser.me/api/portraits/women/45.jpg"

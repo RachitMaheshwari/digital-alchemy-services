@@ -11,7 +11,7 @@ const Footer = () => {
           <div>
             <a
               href="#">
-              <h3 className="font-bold text-lg mb-4">OmTech</h3>
+              <h3 className="font-bold text-lg mb-4">RM</h3>
             </a>
             <p className="text-gray-600 mb-4">
               Professional tech services for businesses and startups.
@@ -79,7 +79,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-200 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-600 text-sm">
-            © {currentYear} OmTech. All rights reserved.
+            © {currentYear} RM. All rights reserved.
           </p>
           <p className="text-gray-600 text-sm mt-4 md:mt-0 flex items-center">
             Made with <Heart size={14} className="mx-1 text-red-500" /> in India

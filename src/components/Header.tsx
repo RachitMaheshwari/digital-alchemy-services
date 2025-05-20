@@ -33,7 +33,7 @@ const Header = ({ isScrolled }: HeaderProps) => {
           <a
             href="#">
             <span className="text-2xl font-bold bg-gradient-to-r from-techpro-blue to-techpro-purple bg-clip-text text-transparent">
-              OmTech
+              RM
             </span>
           </a>
         </div>

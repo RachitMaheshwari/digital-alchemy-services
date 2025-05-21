@@ -809,7 +809,7 @@ const Index = () => {
       </section>
 
       {/* Testimonials Section - New section */}
-      <section className="py-16 md:py-24 bg-gray-50 animate-on-scroll">
+      {/* <section className="py-16 md:py-24 bg-gray-50 animate-on-scroll">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <Badge className="bg-yellow-100 text-yellow-700 hover:bg-yellow-200 mb-4">
@@ -847,7 +847,7 @@ const Index = () => {
             />
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* FAQ Section - New section */}
       <section className="py-16 md:py-24 bg-white animate-on-scroll">
